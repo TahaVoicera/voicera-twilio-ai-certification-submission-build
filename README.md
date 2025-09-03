@@ -26,3 +26,11 @@ A _configurations.py_ file is used which contains welcome message, speech-to-tex
 
 **Insights Generated**
 <img width="1902" height="910" alt="image" src="https://github.com/user-attachments/assets/55579d5f-a2c4-4de4-8a92-6cd098ac48eb" />
+
+
+How to run the code?
+1. Pull the repository
+3. In terminal : pip install fastapi uvicorn dotenv groq websockets
+4. In .env file enter NGROK_URL , GROQ_API_KEY TWILIO_CONVERSATIONAL_INTELLIGENCE_SID
+5. Generate a ngrok url for http 8080 and link it to voice calls webhook for your Twilio number (using console or API)
+6. In terminal: _python app.py_
