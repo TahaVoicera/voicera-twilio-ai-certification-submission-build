@@ -1,6 +1,8 @@
 # voicera-twilio-ai-certification-submission-build
 This repository contains the submission build for Twilio AI Certification. The build contains Twilio services: ConversationRelay and ConversationIntelligence to leverage AI Voice agent capabilities.
 
+Refer the "_Conversation Intelligence Service Config Screenshots_" folder for screenshots of Conversational Intelligence Service Configuration with operators (built-in and custom). 
+
 For **Conversational Intelligence** Service, the operators list is as follows:
 - Built-in operators:
   Escalation Request, Agent Introduction, Call Transfer, Entity Recognition, Conversation Summary, Sentiment Analysis.
