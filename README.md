@@ -10,7 +10,10 @@ For **Conversational Intelligence** Service, the operators list is as follows:
   <img width="1416" height="807" alt="image" src="https://github.com/user-attachments/assets/94f69cc0-282a-4061-be76-d52ba3db34db" />
 
 For **ConversationRelay**:
-A configurations.py file is used which contains welcome message, speech-to-text configurations, text-to-speech-configurations.
+A _configurations.py_ file is used which contains welcome message, speech-to-text configurations, text-to-speech-configurations.
+
+**System Diagram:**
+<img width="1920" height="1080" alt="ConversationRelay" src="https://github.com/user-attachments/assets/62b62922-aad4-468e-9ad3-ba997e2fcab7" />
 
 **Application Flow / Design:**
 1. A Twilio number is webhooked to the /call endpoint in _app.py_.
