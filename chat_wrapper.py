@@ -3,7 +3,6 @@ import json
 import os
 from typing import Optional
 import time
-import openai
 from fastapi import APIRouter, Depends, HTTPException, WebSocket, WebSocketDisconnect
 from fastapi.responses import HTMLResponse, Response
 from fastapi.websockets import WebSocketState
@@ -66,4 +65,5 @@ async def stream_llm_response(client, messages, websocket, model):
         
     except Exception as e:
         logger.error(f"Streaming error: {e}")
+
         return "", messages
