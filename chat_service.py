@@ -3,7 +3,6 @@ import json
 import uvicorn
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.responses import Response
-import openai
 from dotenv import load_dotenv
 import logging
 from params import get_config
@@ -61,4 +60,5 @@ async def process_chat(websocket: WebSocket):
                 
     except WebSocketDisconnect:
         logger.info("WebSocket connection closed")
+
         
